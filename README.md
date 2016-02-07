@@ -13,3 +13,5 @@ Unfortunatly, Code::Blocks will replace the link by a new file when saving. So w
 Just get the source code of C::B and replace the function Save() in src/sdk/filemanager.cpp by the version provided in hack.cpp here.
 
 I know, it's a crude hack ... but it works.
+
+BTW: On a debian system you can use (sudo) checkinstall after make. So you can remove the version with dpkg remove later.
